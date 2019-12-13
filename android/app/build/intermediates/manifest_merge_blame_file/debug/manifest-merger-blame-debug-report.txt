@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.careeratlic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:5:5-79
+13-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:5:22-76
+14
+15    <application
+15-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:7:5-28:19
+16        android:name="com.careeratlic.MainApplication"
+16-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:8:7-38
+17        android:allowBackup="false"
+17-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:12:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\e5d67c6405473111c32ff094a9041a45\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:10:7-41
+21        android:label="@string/app_name"
+21-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:9:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:11:7-52
+23        android:theme="@style/AppTheme"
+23-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:13:7-38
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\debug\AndroidManifest.xml:7:18-53
+25        <activity
+25-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:14:7-23:18
+26            android:name="com.careeratlic.MainActivity"
+26-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:15:9-37
+27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+27-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:17:9-79
+28            android:label="@string/app_name"
+28-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:16:9-41
+29            android:windowSoftInputMode="adjustResize" >
+29-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:18:9-51
+30            <intent-filter>
+30-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:19:9-22:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:20:13-65
+31-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:20:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:21:13-73
+33-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:21:23-70
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+36-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:24:7-84
+36-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:24:17-81
+37
+38        <meta-data
+38-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:25:7-27:64
+39            android:name="com.google.android.geo.API_KEY"
+39-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:26:7-52
+40            android:value="AIzaSyAk7Id-M3LmfC4da63qEluXIdUpkN9AycM" />
+40-->C:\Users\dell\ReactNative\RNCLI\CareerAtLIC\android\app\src\main\AndroidManifest.xml:27:7-62
+41    </application>
+42
+43</manifest>
